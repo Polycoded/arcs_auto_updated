@@ -1,0 +1,35 @@
+{
+  "top_features": [
+    "mean",
+    "min",
+    "max",
+    "mean_abs_change",
+    "zero_crossing_rate",
+    "trend_slope",
+    "std_1st_diff",
+    "trend_strength",
+    "std",
+    "kurtosis",
+    "skewness",
+    "complexity_score",
+    "has_trend",
+    "is_stationary",
+    "has_seasonality",
+    "seasonal_period",
+    "outlier_pct",
+    "missing_pct",
+    "diff_needed",
+    "volatility"
+  ],
+  "accuracy": 0.6833333333333333,
+  "model_type": "XGBClassifier",
+  "n_features": 20,
+  "classes_file": "models/meta_model_classes.npy",
+  "classes": [
+    "ARIMA",
+    "Exponential Smoothing",
+    "SARIMA",
+    "STL + ETS (Hybrid)",
+    "XGBoost"
+  ]
+}
